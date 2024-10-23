@@ -36,9 +36,19 @@ The app leverages the browser's `localStorage` to persist the user's previously 
    ```bash
    git clone https://github.com/Idenshah/colorOfDay.git
 2. Open the index.html file in a web browser.
-
 3.Select a date and click the "Select Date" button to see the color associated with that date.
-
 4.You can clear your history by clicking the "Clear History" button.Open the index.html file in a web browser.
 
-## Note: This project uses the Zoodinkers Color API to retrieve the color based on the selected date.
+### Note: This project uses the Zoodinkers Color API to retrieve the color based on the selected date.
+
+##Future Improvements
+- Add validation messages for invalid date inputs.
+- Improve error handling for network issues or failed API requests.
+- Enhance the UI/UX design for better user experience.
+  
+##Technologies Used
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Fetch API
+- LocalStorage
