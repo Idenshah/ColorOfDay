@@ -6,6 +6,7 @@ const input = document.createElement("input");
 input.classList.add("dateInput");
 input.name = "insertDate";
 input.type = "date";
+input.setAttribute("aria-label", "date");
 
 const selectButton = document.createElement("button");
 selectButton.textContent = "Select Date";
